@@ -7,7 +7,9 @@
     background-color: #0063DA;
     color: #fff;
     font-size: 20px;
+    font-weight: bold;
     line-height: 20px;
     border-radius: 25px;
     border: none;
+    cursor: pointer;
 }
