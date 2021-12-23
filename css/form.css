@@ -1,5 +1,20 @@
 .form {
     display: inline-block;
     width: 100%;
-    background-color: blue;
+}
+.form-row {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+label {
+    display: inline-block;
+    width: 100%;
+}
+input {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #F7F7F7;
 }
