@@ -11,7 +11,7 @@ body {
 .container {
     display: inline-block;
     width: 800px; 
-    margin-top: 100px;
+    margin-top: 60px;
     margin-left: calc((100% - 800px)/2);
 }
 
@@ -20,9 +20,13 @@ body {
     display: inline-block;
     float: left;
     padding: 40px;
-    background-color: #4739AB;
     margin-top: 20px;
     color: white;
+    background-color: #4739AB;
+    background-image: url(../img/hill.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
 }
 .main-title {
@@ -30,12 +34,12 @@ body {
     width: 100%;
     font-size: 32px;
     font-weight: normal;
-    background-color: yellow;
+    
 }
 .bottom-links {
     display: inline-block;
     width: 100%;
-    background-color: yellow;
+    
 }
 .bottom-links > .link {
     color: white;
@@ -56,4 +60,24 @@ body {
 .close {
     display: inline-block;
     background-color: red;
+}
+.right-column span {
+    display: inline-block;
+    padding: 15px;
+    padding-right: 0;
+    margin-left: 15px;
+    line-height: 20px;
+    font-size: 17px;
+}
+.right-column a {
+    display: inline-block;
+    padding: 15px;
+    padding-left: 3px;
+    line-height: 20px;
+    font-size: 17px;
+    text-decoration: none;
+    color: #0063DA;
+}
+.right-column a:hover {
+    text-decoration: underline;
 }
