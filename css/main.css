@@ -20,9 +20,13 @@ body {
     display: inline-block;
     float: left;
     padding: 40px;
-    background-color: #4739AB;
     margin-top: 20px;
     color: white;
+    background-color: #4739AB;
+    background-image: url(../img/hill.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
 }
 .main-title {
@@ -30,12 +34,12 @@ body {
     width: 100%;
     font-size: 32px;
     font-weight: normal;
-    background-color: yellow;
+    
 }
 .bottom-links {
     display: inline-block;
     width: 100%;
-    background-color: yellow;
+    
 }
 .bottom-links > .link {
     color: white;
