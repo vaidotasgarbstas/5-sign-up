@@ -20,6 +20,6 @@
 }
 .btn:hover {
     background: linear-gradient(90deg, 
-    rgb(216, 90, 31) 0%, 
-    rgb(223, 120, 3) 100%);
+    rgb(31, 173, 216) 0%, 
+    rgb(3, 124, 223) 100%);
 }

@@ -6,11 +6,31 @@ body, body * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifS;
 }
 body {
-    background-color: #01ADCE;
+    background-color: #671C7E;
+    background: rgb(89,31,105);
+    background: linear-gradient(45deg, rgba(89,31,105,1) 0%, rgba(0,140,172,1) 100%);   
+    background-image: url(../img/hill-copy.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     position: relative;
     height: 100vh;
 }
-
+/* .background-div {
+    height: 100%;
+    background-image: url(../img/hill.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(1.2rem);
+} */
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    /* filter: blur(1rem); */
+}
 .container {
     display: inline-block;
     width: 800px; 
@@ -47,7 +67,7 @@ body {
     display: inline-block;
     position: absolute;
     bottom: 20px;
-    left: 40px;
+    left: 60px;
     right: 40px;
     
 }
