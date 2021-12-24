@@ -7,14 +7,17 @@ body, body * {
 }
 body {
     background-color: #01ADCE;
+    position: relative;
+    height: 100vh;
 }
 
 .container {
     display: inline-block;
     width: 800px; 
-    margin-top: 60px;
-    margin-left: calc((100% - 800px)/2);
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .left-column {
